@@ -1,0 +1,27 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.2.13)
+      i18n (= 0.6.1)
+      multi_json (~> 1.0)
+    addressable (2.3.4)
+    em-irc (0.0.2)
+      activesupport
+      eventmachine
+    em-websocket-client (0.1.1)
+      eventmachine
+      libwebsocket
+    eventmachine (1.0.3)
+    i18n (0.6.1)
+    libwebsocket (0.1.8)
+      addressable
+      websocket
+    multi_json (1.7.3)
+    websocket (1.0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  em-irc
+  em-websocket-client
